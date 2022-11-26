@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 0 4rem;
+}
+
+.header-main{
+    padding: 60px;
+background-color: red;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.basket a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+.pr-list{
+    display: flex;
+    justify-content: space-between;
+}
+.pr-box{
+    width: 20%;
+    border: solid black 2px;
+    padding: 10px;
+    border-radius: 30px;
+}
+.pr-box .pr-img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.pr-img img{
+    width: 100%;
+    height: 180px;
+}
+.btn-addtocard{
+    border: none;
+    border-radius: 15px;
+    background-color: green;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 7px;
+}
